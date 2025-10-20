@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    ¡Claro! Aquí tienes el código completo para el portafolio de Darwin Enrique Cesa, estructurado en tres archivos independientes como lo solicitaste, seguido de la explicación educativa, el tutorial de VS Code y GitHub, y la métrica de tiempo.
+
+index.html
+code
+Html
+play_circle
+download
+content_copy
+expand_less
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Darwin Enrique Cesa, Desarrollador Frontend experto con 5+ años de experiencia en React, HTML5, CSS3, y JavaScript.">
+    <meta name="keywords" content="Frontend, Desarrollador, React, HTML5, CSS3, JavaScript, Portafolio, Darwin Enrique Cesa">
+    <meta name="author" content="Darwin Enrique Cesa">
+    <title>Darwin Enrique Cesa - Desarrollador Frontend</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="50">
+    <header>
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top" aria-label="Navegación principal del portafolio">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Darwin Enrique Cesa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home" aria-label="Ir a la sección de inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" aria-label="Ir a la sección Sobre Mí">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" aria-label="Ir a la sección de Proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience" aria-label="Ir a la sección de Experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" aria-label="Ir a la sección de Contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <button id="darkModeToggle" class="btn btn-outline-light" aria-label="Alternar modo oscuro">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Homepage Section -->
+        <section id="home" class="d-flex align-items-center justify-content-center text-center vh-100 gradient-background" aria-label="Sección de inicio y bienvenida">
+            <div class="container text-white">
+                <img src=https://lms2.oymas.edu.do/assets/avatar/assets/files/6edPAIuY82qVjcz23-SISN-8-047-avatar.jpeg alt="Foto de perfil de Darwin Enrique Cesa" class="img-fluid rounded-circle mb-4 profile-img">
+                <h1 class="display-3 fw-bold mb-3 animate__animated animate__fadeInUp">Darwin Enrique Cesa</h1>
+                <p class="lead fs-4">Desarrollador Frontend <span class="text-primary">Experto</span> con más de 5 años de experiencia 🚀</p>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-5" aria-label="Sección Sobre Mí">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="display-4 fw-bold mb-4"><i class="fas fa-user text-primary me-3"></i>Sobre Mí</h2>
+                        <p class="lead mb-5">¡Hola! Soy Darwin Enrique Cesa, un apasionado desarrollador frontend con más de 5 años de experiencia en la creación de experiencias web dinámicas y altamente interactivas. Mi enfoque principal es construir interfaces de usuario robustas y escalables utilizando las últimas tecnologías web. 📸</p>
+                    </div>
+                </div>
+                <div class="row text-center mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 shadow-sm rounded h-100 about-card">
+                            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                            <h5 class="fw-bold">Habilidades Técnicas</h5>
+                            <p>Especializado en React, HTML5, CSS3, JavaScript, Bootstrap y consumo de APIs REST.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 shadow-sm rounded h-100 about-card">
+                            <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                            <h5 class="fw-bold">Colaboración Efectiva</h5>
+                            <p>Experiencia trabajando en equipos ágiles, colaborando con diseñadores y backend developers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 shadow-sm rounded h-100 about-card">
+                            <i class="fas fa-bullseye fa-3x text-primary mb-3"></i>
+                            <h5 class="fw-bold">Orientado a Resultados</h5>
+                            <p>Comprometido con la entrega de soluciones de alta calidad, accesibles y optimizadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5 bg-light" aria-label="Sección de Proyectos">
+            <div class="container">
+                <h2 class="display-4 fw-bold text-center mb-5"><i class="fas fa-project-diagram text-primary me-3"></i>Proyectos</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 project-card">
+                            <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top" alt="E-commerce moderno">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">E-commerce de Moda</h5>
+                                <p class="card-text">Desarrollo de una plataforma de comercio electrónico utilizando React y Redux, con integración de pasarelas de pago y diseño responsive.</p>
+                                <a href="#" class="btn btn-primary" aria-label="Ver Proyecto E-commerce">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 project-card">
+                            <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top" alt="Panel de administración Dashboard">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Dashboard Empresarial</h5>
+                                <p class="card-text">Creación de un panel de administración interactivo con gráficas de datos en tiempo real, utilizando React, Chart.js y Material-UI.</p>
+                                <a href="#" class="btn btn-primary" aria-label="Ver Proyecto Dashboard">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 project-card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top" alt="Aplicación móvil para gestión de tareas">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">App de Gestión de Tareas</h5>
+                                <p class="card-text">Prototipo de aplicación móvil con React Native (simulado para web), enfocado en la usabilidad y la sincronización de datos.</p>
+                                <a href="#" class="btn btn-primary" aria-label="Ver Proyecto App Móvil">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-5" aria-label="Sección de Experiencia Laboral">
+            <div class="container">
+                <h2 class="display-4 fw-bold text-center mb-5"><i class="fas fa-briefcase text-primary me-3"></i>Experiencia</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 p-4 experience-card">
+                            <div class="text-center mb-3">
+                                <i class="fas fa-building fa-3x text-primary"></i>
+                            </div>
+                            <h5 class="fw-bold">Senior Frontend Developer - TechCorp Innovations</h5>
+                            <p class="text-muted mb-2">Enero 2022 - Presente</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Liderazgo técnico en el desarrollo de componentes React escalables.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Optimización del rendimiento de la aplicación, reduciendo los tiempos de carga en un 20%.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Mentoría a desarrolladores junior y revisión de código.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 p-4 experience-card">
+                            <div class="text-center mb-3">
+                                <i class="fas fa-building fa-3x text-primary"></i>
+                            </div>
+                            <h5 class="fw-bold">Frontend Developer - InnovaWeb Solutions</h5>
+                            <p class="text-muted mb-2">Marzo 2019 - Diciembre 2021</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Desarrollo de interfaces de usuario para diversas aplicaciones web.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Implementación de diseños responsivos con Bootstrap y CSS3.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Colaboración en la integración de APIs RESTful.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 p-4 experience-card">
+                            <div class="text-center mb-3">
+                                <i class="fas fa-graduation-cap fa-3x text-primary"></i>
+                            </div>
+                            <h5 class="fw-bold">Técnico Superior en Desarrollo de Aplicaciones Web</h5>
+                            <p class="text-muted mb-2">Septiembre 2017 - Junio 2019</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Formación en desarrollo web frontend y backend.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Prácticas en desarrollo de componentes con JavaScript.</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Proyectos finales orientados a la creación de aplicaciones web funcionales.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 bg-light" aria-label="Sección de Contacto">
+            <div class="container">
+                <h2 class="display-4 fw-bold text-center mb-5"><i class="fas fa-envelope text-primary me-3"></i>Contacto</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <form id="contactForm" class="p-4 shadow rounded">
+                            <div class="mb-3">
+                                <label for="name" class="form-label visually-hidden">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Tu Nombre Completo" aria-label="Introduce tu nombre completo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Tu Email" aria-label="Introduce tu dirección de correo electrónico" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label visually-hidden">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Tu Mensaje" aria-label="Escribe tu mensaje aquí" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <h5 class="fw-bold mb-3">Conéctate en Redes</h5>
+                        <a href="https://www.linkedin.com/in/juanperez" target="_blank" class="text-primary mx-3 social-icon" aria-label="Perfil de LinkedIn de Darwin Enrique Cesa">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/juanperezdev" target="_blank" class="text-dark mx-3 social-icon" aria-label="Perfil de GitHub de Darwin Enrique Cesa">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://twitter.com/juanperezdev" target="_blank" class="text-info mx-3 social-icon" aria-label="Perfil de Twitter de Darwin Enrique Cesa">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/juanperezdev" target="_blank" class="text-danger mx-3 social-icon" aria-label="Perfil de Instagram de Darwin Enrique Cesa">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4 text-center" aria-label="Pie de página">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Darwin Enrique Cesa. Hecho con <i class="fas fa-heart text-danger"></i>.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+style.css
+code
+CSS
+download
+content_copy
+expand_less
+/* Custom CSS */
+:root {
+    --primary-color: #007bff;
+    --bg-light: #f8f9fa;
+    --text-light: #212529; /* Dark text for light mode */
+    --bg-dark: #343a40;
+    --text-dark: #f8f9fa; /* Light text for dark mode */
+    --gradient-color-1: #ee7752;
+    --gradient-color-2: #e73c7e;
+    --gradient-color-3: #23a6d5;
+    --gradient-color-4: #23d5ab;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Overrides */
+body.dark {
+    --bg-light: var(--bg-dark);
+    --text-light: var(--text-dark); /* This swaps the effective light text to dark mode's light text */
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+body.dark .bg-light {
+    background: var(--bg-dark) !important;
+}
+
+body.dark .navbar {
+    background: var(--bg-dark) !important;
+}
+
+body.dark .navbar-brand,
+body.dark .nav-link {
+    color: var(--text-dark) !important;
+}
+
+body.dark i {
+    color: var(--text-dark); /* Ensure icons are light in dark mode */
+}
+body.dark i.text-primary {
+    color: var(--primary-color) !important; /* Keep primary color for specific icons */
+}
+body.dark .social-icon.text-dark {
+    color: var(--text-dark) !important; /* Keep GitHub icon light in dark mode */
+}
+body.dark .text-dark {
+    color: var(--text-light) !important; /* Override specific text-dark utility class */
+}
+
+body.dark .card {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border-color: var(--primary-color);
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-right: 15px;
+    color: var(--text-light);
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+}
+#darkModeToggle {
+    border-color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+#darkModeToggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+body.dark #darkModeToggle {
+    color: var(--text-dark);
+    border-color: var(--text-dark);
+}
+body.dark #darkModeToggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Homepage Hero */
+.gradient-background {
+    background: linear-gradient(-45deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3), var(--gradient-color-4));
+    background-size: 400% 400%;
+    animation: gradientShift 15s infinite ease;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Smooth fadeInUp for h1 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate__fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+
+/* About Section */
+.about-card {
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Projects Section */
+.project-card {
+    border: 2px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: heartbeat 3s infinite ease-in-out;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    animation: none; /* Stop heartbeat on hover */
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+/* Experience Section */
+.experience-card {
+    border: 1px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.experience-card ul {
+    padding-left: 20px;
+}
+.experience-card li {
+    margin-bottom: 8px;
+}
+
+/* Contact Section */
+.form-label.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.social-icon {
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.social-icon:hover {
+    transform: translateY(-3px);
+}
+/* Ensure GitHub icon color changes for dark mode */
+body.dark a.social-icon.text-dark i {
+    color: var(--text-dark) !important;
+}
+
+/* Focus outlines for accessibility */
+*:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: var(--bg-light);
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+    body.dark .navbar-collapse {
+        background-color: var(--bg-dark);
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+    #darkModeToggle {
+        width: 100%;
+    }
+}
+script.js
+code
+JavaScript
+download
+content_copy
+expand_less
+document.addEventListener('DOMContentLoaded', () => {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+    const currentTheme = localStorage.getItem('theme');
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+
+            // Close navbar on link click for small screens
+            const navbarCollapse = document.getElementById('navbarNav');
+            if (navbarCollapse.classList.contains('show')) {
+                const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                bsCollapse.hide();
+            }
+        });
+    });
+
+    // Dark Mode Toggle Functionality
+    const enableDarkMode = () => {
+        body.classList.add('dark');
+        darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        localStorage.setItem('theme', 'dark');
+    };
+
+    const disableDarkMode = () => {
+        body.classList.remove('dark');
+        darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        localStorage.setItem('theme', 'light');
+    };
+
+    // Apply stored theme or detect system preference
+    if (currentTheme === 'dark') {
+        enableDarkMode();
+    } else if (currentTheme === 'light') {
+        disableDarkMode();
+    } else {
+        // Auto-detect prefers-color-scheme
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            enableDarkMode();
+        } else {
+            disableDarkMode();
+        }
+    }
+
+    // Listener for dark mode toggle button
+    darkModeToggle.addEventListener('click', () => {
+        if (body.classList.contains('dark')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    });
+
+    // Listener for system color scheme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        if (localStorage.getItem('theme') === null) { // Only auto-switch if no user preference is set
+            if (event.matches) {
+                enableDarkMode();
+            } else {
+                disableDarkMode();
+            }
+        }
+    });
+
+    // Contact Form Submission
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent actual form submission
+        alert('¡Mensaje enviado! 📧 Gracias por contactarme, Darwin Enrique Cesa te responderá pronto.');
+        contactForm.reset(); // Clear the form fields
+    });
+});
+
+`
+
+Tutorial Educativo: Introducción al Desarrollo Web
+
+El desarrollo web es el arte y la ciencia de construir y mantener sitios y aplicaciones web. Es un campo dinámico que combina creatividad, lógica y una comprensión profunda de cómo los usuarios interactúan con la información en línea. Se divide principalmente en dos grandes áreas: el desarrollo frontend y el desarrollo backend.
+
+¿Qué es el Desarrollo Web?
+
+El desarrollo web es el proceso de crear sitios y aplicaciones para Internet o una intranet. Incluye tareas como el diseño web, el desarrollo de contenido web, la programación de scripts del lado del cliente/servidor y la seguridad de la red. En esencia, es todo lo que hace que un sitio web funcione, desde su apariencia visual hasta su lógica interna y la forma en que interactúa con las bases de datos.
+
+¿Qué es el Diseño Web?
+
+El diseño web se centra en la parte visual y la experiencia de usuario de un sitio web. Va más allá de lo estético; busca crear interfaces que sean atractivas, intuitivas y fáciles de usar. Los diseñadores web se preocupan por la disposición de los elementos (layout), la combinación de colores, la tipografía, las imágenes y la forma en que los usuarios navegarán por el sitio. Su objetivo es asegurar que la interacción del usuario sea placentera y eficiente.
+
+¿Qué es el Maquetado Web?
+
+El maquetado web es la fase en la que se traduce el diseño visual (creado por el diseñador web) a código. Es el proceso de estructurar el contenido de una página web utilizando lenguajes como HTML y CSS. Un maquetador se encarga de posicionar textos, imágenes, videos y otros elementos de acuerdo con el diseño, asegurando que el sitio sea responsive (se adapte a diferentes tamaños de pantalla) y accesible. Es el puente entre el diseño y la programación.
+
+¿Qué es la Programación Web?
+
+La programación web se refiere a la creación de la lógica y la funcionalidad que permiten a un sitio web interactuar y realizar tareas. Esto puede incluir desde animaciones y validaciones de formularios en el navegador (frontend) hasta el manejo de bases de datos, la autenticación de usuarios y la lógica de negocio en el servidor (backend). Se utilizan lenguajes de programación para dar vida a la interacción y al procesamiento de datos.
+
+Tecnologías Web Fundamentales
+
+Para construir una página web como la que acabamos de crear, se utilizan varias tecnologías clave. A continuación, se explican las más básicas y su evolución histórica:
+
+1. HTML (HyperText Markup Language)
+
+¿Qué es? HTML es el lenguaje estándar para crear y estructurar el contenido de las páginas web. No es un lenguaje de programación, sino un "lenguaje de marcado" que utiliza etiquetas para definir la estructura de la página (títulos, párrafos, imágenes, enlaces, listas, etc.).
+
+Explicación: Imagina HTML como el esqueleto de tu página web. Define dónde van a estar cada uno de los elementos de contenido.
+
+Orden Histórico: Fue creado por Tim Berners-Lee a principios de los 90. HTML5 es la última y más avanzada versión, lanzada en 2014, que introdujo nuevas etiquetas semánticas (<header>, <nav>, <section>, <footer>, <article>, <aside>), soporte para video y audio nativos, y APIs para interacciones más complejas, mejorando significativamente la estructura y la accesibilidad.
+
+2. CSS (Cascading Style Sheets)
+
+¿Qué es? CSS es un lenguaje de hojas de estilo que se utiliza para describir la presentación de un documento escrito en HTML. Permite controlar la apariencia de las páginas web, como colores, fuentes, espaciado, diseño (layout) y animaciones.
+
+Explicación: Si HTML es el esqueleto, CSS es la piel, la ropa y el maquillaje. Le da estilo y embellece el contenido estructurado por HTML.
+
+Orden Histórico: Introducido a mediados de los 90, CSS3 (lanzado gradualmente a partir de finales de los 90 y principios de los 2000) añadió características muy potentes como bordes redondeados, sombras, transformaciones 2D/3D, transiciones, animaciones y diseño responsive (@media queries), permitiendo diseños mucho más complejos y dinámicos sin necesidad de JavaScript adicional.
+
+3. Bootstrap
+
+¿Qué es? Bootstrap es un framework de CSS de código abierto, diseñado para facilitar la creación de sitios web responsive y mobile-first (primero para móvil). Incluye plantillas de diseño basadas en HTML y CSS para tipografía, formularios, botones, navegación y otros componentes de interfaz, así como extensiones de JavaScript.
+
+Explicación: Bootstrap es como tener un kit de construcción prefabricado para tu sitio web. Te proporciona componentes ya estilizados y un sistema de cuadrícula que te ahorra mucho tiempo al diseñar layouts responsivos.
+
+Orden Histórico: Lanzado originalmente por Twitter en 2011. Bootstrap 5.3.3 (como el usado en este proyecto) es una versión reciente que ha eliminado la dependencia de jQuery, mejorado el soporte de CSS variables, y optimizado la personalización, haciéndolo más moderno y ligero.
+
+4. Font Awesome
+
+¿Qué es? Font Awesome es una popular biblioteca de iconos vectoriales escalables que se puede personalizar fácilmente con CSS. Permite insertar iconos web en el diseño, como los que representan un usuario, un sobre o un proyecto.
+
+Explicación: Es una fuente especial que, en lugar de letras, contiene miles de iconos. Puedes cambiar su tamaño y color como si fueran texto normal.
+
+Orden Histórico: Se hizo popular a principios de los 2010. Font Awesome 6.5.1 es una de las últimas versiones, con una biblioteca de iconos mucho más extensa y opciones de estilo mejoradas.
+
+5. JavaScript (JS)
+
+¿Qué es? JavaScript es un lenguaje de programación que permite añadir interactividad a las páginas web. Se ejecuta directamente en el navegador del usuario (cliente-side) y puede manipular el HTML y CSS de la página, responder a eventos del usuario, realizar validaciones y comunicarse con servidores.
+
+Explicación: Si HTML es la estructura y CSS es el estilo, JavaScript es el cerebro y los músculos que hacen que la página cobre vida y reaccione a lo que haces.
+
+Orden Histórico: Creado en 1995 por Brendan Eich en Netscape. Desde entonces, ha evolucionado de ser un lenguaje simple para scripts de navegador a un lenguaje robusto capaz de desarrollar aplicaciones complejas tanto en el frontend como en el backend (con Node.js). El término "JavaScript vanilla" se refiere al uso puro de JavaScript, sin frameworks o bibliotecas adicionales como React, Angular o Vue, que son más recientes.
+
+Tutorial de Aplicación en Visual Studio Code y Despliegue en GitHub Pages
+
+Este tutorial te guiará paso a paso para crear los archivos de tu proyecto, visualizarlo localmente y desplegarlo en GitHub Pages, todo de forma manual.
+
+1. Preparación en Visual Studio Code
+
+Visual Studio Code (VS Code) es un editor de código gratuito, potente y muy popular entre los desarrolladores.
+
+Paso 1: Abrir VS Code
+Si aún no lo tienes, descárgalo e instálalo desde code.visualstudio.com.
+Abre Visual Studio Code.
+
+Paso 2: Crear una Nueva Carpeta para el Proyecto
+
+En VS Code, ve a Archivo > Abrir Carpeta... (o Open Folder...).
+
+Navega a la ubicación donde quieras guardar tu proyecto (por ejemplo, en Documentos o Escritorio).
+
+Haz clic derecho en un espacio vacío y selecciona Nueva carpeta. Nómbrala portafolio-juanperez o el nombre que prefieras.
+
+Selecciona la carpeta recién creada y haz clic en Seleccionar Carpeta.
+Ahora verás tu carpeta vacía en la barra lateral izquierda de VS Code (el explorador de archivos).
+
+Paso 3: Crear los Archivos Independientes
+Dentro de la carpeta portafolio-juanperez en VS Code:
+
+Haz clic en el icono de "Nuevo archivo" (parece una hoja con un signo +) en la barra lateral izquierda, junto al nombre de tu carpeta.
+
+Crea el primer archivo y nómbralo index.html.
+
+Repite el proceso para crear style.css.
+
+Repite nuevamente para crear script.js.
+
+Paso 4: Copiar y Pegar el Código
+
+Abre cada uno de los archivos (index.html, style.css, script.js) haciendo clic en ellos en el explorador de VS Code.
+
+Copia el código proporcionado anteriormente para index.html y pégalo en el archivo index.html en VS Code.
+
+Haz lo mismo para style.css y script.js.
+
+Guarda todos los archivos: Puedes ir a Archivo > Guardar todo (o Ctrl + Shift + S / Cmd + Shift + S).
+
+2. Visualizar el Proyecto en el Navegador (Localmente)
+
+Paso 1: Abrir el Archivo HTML
+
+Navega a la carpeta portafolio-juanperez en tu explorador de archivos (Finder en Mac, Explorador de Archivos en Windows).
+
+Busca el archivo index.html.
+
+Haz doble clic en index.html. Esto abrirá tu página web en el navegador predeterminado (Chrome, Firefox, Edge, etc.).
+
+Paso 2: Realizar Cambios y Recargar
+
+Mientras tienes la página abierta en el navegador, puedes volver a VS Code, hacer un cambio en index.html, style.css o script.js y guardar el archivo.
+
+Luego, regresa al navegador y actualiza la página (presionando F5 o el botón de recargar). Verás tus cambios reflejados.
+
+3. Despliegue en GitHub Pages (Paso a Paso Manual)
+
+GitHub Pages es un servicio de alojamiento estático que te permite publicar sitios web directamente desde un repositorio de GitHub.
+
+Paso 1: Crear una Cuenta en GitHub
+
+Abre tu navegador y ve a github.com.
+
+Haz clic en Sign up (Registrarse) en la esquina superior derecha.
+
+Sigue las instrucciones para crear tu cuenta: ingresa tu correo electrónico, crea una contraseña y un nombre de usuario. Verifica tu correo si es necesario.
+
+Paso 2: Crear un Nuevo Repositorio en GitHub
+
+Una vez que hayas iniciado sesión en GitHub, haz clic en el botón + en la esquina superior derecha de la página y selecciona New repository (Nuevo repositorio).
+
+Nombre del Repositorio: Elige un nombre descriptivo, por ejemplo, portafolio-juanperez.
+
+Descripción: (Opcional) Agrega una breve descripción como "Portafolio personal de Darwin Enrique Cesa".
+
+Público/Privado: Deja la opción Public (Público) seleccionada para que GitHub Pages funcione (los repositorios privados requieren una suscripción de GitHub Pro para GitHub Pages).
+
+Inicializar con un README: (Opcional, pero recomendado) Marca la casilla Add a README file.
+
+Haz clic en Create repository (Crear repositorio).
+
+Paso 3: Subir los Archivos del Proyecto a tu Repositorio (Método de Arrastrar y Soltar)
+
+Una vez que tu repositorio ha sido creado, serás redirigido a la página principal de este.
+
+Verás un mensaje que dice "Quick setup — if you've done this kind of thing before" y debajo, una sección para subir archivos.
+
+Haz clic en el enlace uploading an existing file (subir un archivo existente).
+
+Ahora estás en la página de carga. Puedes hacer clic en choose your files o simplemente arrastrar y soltar los tres archivos de tu proyecto (index.html, style.css, script.js) desde tu carpeta local (portafolio-juanperez) directamente a la ventana del navegador.
+
+Una vez que los archivos se hayan cargado, verás una lista de ellos.
+
+En la parte inferior de la página, en la sección Commit changes, puedes dejar el mensaje predeterminado (Add files via upload) o escribir uno más específico como "Initial project files".
+
+Haz clic en el botón verde Commit changes (Confirmar cambios).
+Ahora tus archivos están en tu repositorio de GitHub.
+
+Paso 4: Publicar el Proyecto en GitHub Pages
+
+En la página principal de tu repositorio en GitHub, haz clic en la pestaña Settings (Configuración).
+
+En el menú lateral izquierdo, desplázate hacia abajo y haz clic en Pages.
+
+En la sección Build and deployment (Compilación e implementación):
+
+Para Source (Fuente), selecciona Deploy from a branch (Implementar desde una rama).
+
+Para Branch (Rama), haz clic en el menú desplegable y selecciona main (o master si ese es el nombre de tu rama principal).
+
+Deja el directorio como /(root).
+
+Haz clic en el botón Save (Guardar).
+
+GitHub Pages comenzará a construir tu sitio. Esto puede tardar uno o dos minutos.
+
+Después de un breve tiempo, recarga la página Settings > Pages. Verás un mensaje que dice "Your site is live at..." (Tu sitio está activo en...). Esta es la URL de tu proyecto desplegado.
+
+La URL tendrá un formato similar a https://tu-nombre-de-usuario.github.io/nombre-del-repositorio/.
+
+Por ejemplo: https://juanperezdev.github.io/portafolio-juanperez/
+
+Paso 5: Visualizar y Compartir el Proyecto Desplegado
+
+Haz clic en la URL proporcionada en la página de GitHub Pages. Tu portafolio se abrirá en una nueva pestaña del navegador.
+
+¡Felicidades! Tu proyecto ahora está en línea y accesible públicamente. Puedes compartir esta URL con quien desees.
+
+Métrica de Tiempo para Realizar el Proyecto
+
+Analizar el tiempo que tomaría realizar este proyecto completo varía significativamente según el perfil y la experiencia del desarrollador. Aquí un desglose:
+
+Consideraciones Generales:
+
+Alcance del Proyecto: Es un portafolio de una sola página, pero con múltiples secciones, diseño responsive, modo oscuro y animaciones.
+
+Tecnologías: HTML5 semántico, CSS3 (variables, animaciones), Bootstrap 5, JavaScript Vanilla (DOM, localStorage, smooth scroll, form), Font Awesome. CDN para todas las librerías.
+
+Detalle del Prompt: El prompt es extremadamente detallado, lo que reduce el tiempo de "pensar" en la implementación y el diseño, pero aumenta el tiempo de "ejecución" para asegurar que cada detalle se cumpla.
+
+Entorno: VS Code y despliegue manual en GitHub Pages.
+
+Métrica por Perfil de Desarrollador:
+
+Programador Aprendiz (Menos de 6 meses de experiencia, o recién comenzando):
+
+Conocimientos: Básicos de HTML y CSS, quizás algo de JS. Puede que no tenga experiencia con Bootstrap o variables CSS avanzadas, ni con localStorage, prefers-color-scheme, o despliegue en GitHub Pages.
+
+Tiempo Estimado: 20-40 horas.
+
+Desglose:
+
+Entender el HTML semántico y estructurar: 4-6h
+
+Aprender y aplicar Bootstrap para el layout: 6-10h
+
+CSS (variables, gradientes, animaciones, responsive): 8-12h (especialmente el modo oscuro y sus overrides, que son complejos para un aprendiz).
+
+JavaScript (toggle dark mode, smooth scroll, form submit, localStorage, prefers-color-scheme): 8-10h (requerirá mucha investigación y prueba/error).
+
+Integrar Font Awesome: 1h
+
+Depuración y ajustes finos (especialmente el modo oscuro): 5-7h
+
+Configuración y despliegue en GitHub Pages: 2-3h (aprendizaje desde cero).
+
+Observación: Requiere mucha investigación, lectura de documentación y resolución de problemas. Es un excelente proyecto de aprendizaje.
+
+Desarrollador Junior (6 meses a 2 años de experiencia):
+
+Conocimientos: Sólidos en HTML, CSS y JS vanilla. Familiarizado con Bootstrap y Font Awesome. Podría haber trabajado con localStorage y media queries. Quizás haya hecho despliegues básicos.
+
+Tiempo Estimado: 8-15 horas.
+
+Desglose:
+
+Estructura HTML: 2-3h
+
+Layout con Bootstrap: 2-3h
+
+Estilos CSS (incluyendo variables y animaciones, responsive): 3-5h (el modo oscuro aún puede ser un desafío sutil).
+
+JavaScript (interacciones, modo oscuro con localStorage y prefers-color-scheme): 2-4h.
+
+Integración de iconos y ajustes: 1h
+
+Depuración y pulido: 1-2h
+
+Despliegue en GitHub Pages: 0.5-1h
+
+Observación: Realizará el proyecto con cierta fluidez, pero el modo oscuro con todos sus overrides específicos y la detección automática puede requerir atención y alguna depuración.
+
+Desarrollador Senior Frontend (5+ años de experiencia, como Darwin Enrique Cesa en el ejemplo):
+
+Conocimientos: Dominio absoluto de HTML, CSS, JS vanilla, Bootstrap, accesibilidad y optimizaciones. Experiencia en proyectos complejos.
+
+Tiempo Estimado: 4-7 horas.
+
+Desglose:
+
+Estructura HTML y Bootstrap: 1.5-2h (casi automatizado).
+
+Estilos CSS (incluyendo animaciones y responsive): 1.5-2.5h (implementación rápida, el modo oscuro ya es rutina).
+
+JavaScript (todas las interacciones): 1-1.5h (patrones ya conocidos).
+
+Integración y ajustes: 0.5h
+
+Depuración y pulido: 0.5h
+
+Despliegue en GitHub Pages: 0.25h
+
+Observación: Para un senior, la mayoría de los requisitos son tareas estándar. La implementación del modo oscuro, aunque detallada, es un patrón común. El desafío principal es la adherencia exacta a cada especificación del prompt.
+
+Experto Full Stack con Experiencia Promedio (5+ años, con backend y frontend):
+
+Conocimientos: Similar al Senior Frontend, pero con un enfoque más amplio. Puede que sea ligeramente menos rápido en "detalles frontend puristas" si su especialización principal es el backend, pero su visión general le permitirá abordarlo eficientemente.
+
+Tiempo Estimado: 5-8 horas.
+
+Observación: Muy similar al senior frontend. La familiaridad con el ecosistema web le permite resolver rápidamente cualquier detalle.
+
+Freelancer o Trabajador en Empresa (Senior/Experto):
+
+Consideraciones: Los tiempos anteriores se aplican. Sin embargo, en un contexto profesional, se añadiría:
+
+Gestión de Proyecto: Comunicación, planificación, revisiones (si el prompt fuera un cliente).
+
+Herramientas Avanzadas: Uso de preprocesadores CSS (Sass/Less), bundlers (Webpack/Vite), control de versiones (Git) de forma más avanzada, que no se requieren aquí pero que son el pan de cada día.
+
+Tiempo Estimado: Los tiempos de desarrollo puro se mantienen, pero el tiempo total del "proyecto" podría extenderse debido a la sobrecarga administrativa y de herramientas. Para la tarea específica de codificación, los tiempos de Senior/Experto son muy precisos.
+
+Conclusión de la Métrica:
+
+Este proyecto está muy bien estructurado para ser un desafío accesible para un desarrollador junior, una práctica sólida para un aprendiz y una tarea rápida y bien definida para un senior o experto. La alta granularidad del prompt (especialmente en el modo oscuro) lo convierte en una excelente prueba de atención al detalle y capacidad de implementación.
+`
+¡Claro! Aquí tienes el documento con el proceso detallado para subir el proyecto a GitHub, el enlace del repositorio y la URL del proyecto desplegado.
+
+Manual de Despliegue de Portafolio Web en GitHub Pages
+
+Proyecto: Portafolio Personal de Darwin Enrique Cesa - Desarrollador Frontend
+
+Autor: [Tu Nombre / juan perez (Ficticio)]
+
+Fecha: 10 de Julio de 2024
+
+1. Introducción
+
+Este manual describe el proceso paso a paso para desplegar un proyecto de portafolio web estático, compuesto por archivos HTML, CSS y JavaScript, en GitHub Pages. GitHub Pages es un servicio de alojamiento gratuito que permite publicar sitios web directamente desde un repositorio de GitHub, ideal para proyectos personales, blogs o documentación.
+
+2. Proceso Detallado para Subir el Proyecto a GitHub
+
+Siga estos pasos para crear un repositorio en GitHub y cargar los archivos de su proyecto web.
+
+Paso 1: Crear una Cuenta en GitHub
+
+Abrir el Navegador: Diríjase a la página principal de GitHub: github.com.
+
+Registrarse: Haga clic en el botón Sign up (Registrarse) ubicado en la esquina superior derecha.
+
+Proporcionar Información:
+
+Ingrese su dirección de correo electrónico.
+
+Cree una contraseña segura.
+
+Elija un nombre de usuario único.
+
+Siga las indicaciones adicionales (como la verificación de seguridad y preferencias de correo).
+
+Verificar Correo Electrónico: Si GitHub lo solicita, revise su bandeja de entrada y haga clic en el enlace de verificación para activar su cuenta.
+
+Iniciar Sesión: Una vez creada y verificada la cuenta, inicie sesión con su nombre de usuario y contraseña.
+
+Paso 2: Crear un Nuevo Repositorio en GitHub
+
+Acceder a la Creación de Repositorios:
+
+En la página principal de GitHub (después de iniciar sesión), haga clic en el icono + (signo más) en la esquina superior derecha de la pantalla.
+
+En el menú desplegable, seleccione New repository (Nuevo repositorio).
+
+Alternativamente, puede ir a Your repositories y hacer clic en el botón New.
+
+Configurar el Repositorio:
+
+Repository name (Nombre del repositorio): Ingrese un nombre significativo para su proyecto. Para este portafolio, se recomienda portafolio-juanperez. Este nombre será parte de la URL de su sitio.
+
+Description (Descripción - opcional): Escriba una breve descripción del proyecto, por ejemplo: "Portafolio personal de Darwin Enrique Cesa - Desarrollador Frontend".
+
+Public/Private: Seleccione la opción Public (Público). Es crucial que el repositorio sea público para que GitHub Pages funcione de forma gratuita.
+
+Initialize this repository with a README (Inicializar este repositorio con un README - opcional): Marque la casilla Add a README file. Esto creará un archivo README.md que puede usar para describir su proyecto en detalle.
+
+No es necesario añadir .gitignore ni Choose a license para este proyecto.
+
+Crear Repositorio: Haga clic en el botón verde Create repository (Crear repositorio). Será redirigido a la página principal de su nuevo repositorio.
+
+Paso 3: Subir los Archivos del Proyecto al Repositorio (Método Manual)
+
+Acceder a la Carga de Archivos:
+
+En la página principal de su repositorio recién creado, busque la sección que ofrece opciones para añadir archivos.
+
+Localice el enlace o botón que dice uploading an existing file (subir un archivo existente) y haga clic en él.
+
+Esto lo llevará a una página donde puede arrastrar y soltar archivos o seleccionarlos manualmente.
+
+Cargar Archivos:
+
+Método Arrastrar y Soltar:
+
+Abra la carpeta de su proyecto (portafolio-juanperez) en su explorador de archivos local (Windows Explorer, macOS Finder).
+
+Seleccione todos los archivos de su proyecto: index.html, style.css y script.js.
+
+Arrastre estos tres archivos desde su carpeta local directamente hacia el área designada en la página de GitHub donde se le pide que "arrastre archivos aquí para añadirlos a su repositorio".
+
+Método de Selección Manual (Alternativo):
+
+Haga clic en el botón choose your files (elegir sus archivos) en la página de carga de GitHub.
+
+Navegue hasta la carpeta de su proyecto (portafolio-juanperez) en su sistema de archivos.
+
+Seleccione index.html, style.css y script.js (puede mantener Ctrl o Cmd presionado para seleccionar múltiples archivos) y haga clic en Abrir.
+
+Confirmar Cambios (Commit):
+
+Una vez que los archivos se hayan cargado, verá una lista de ellos en la página.
+
+En la sección Commit changes (Confirmar cambios) en la parte inferior de la página, puede dejar el mensaje predeterminado ("Add files via upload") o escribir un mensaje más específico, como "Primera carga del portafolio".
+
+Asegúrese de que el botón Commit directly to the main branch esté seleccionado.
+
+Haga clic en el botón verde Commit changes.
+
+Ahora, todos los archivos de su portafolio están guardados en su repositorio de GitHub.
+
+3. Despliegue del Proyecto en GitHub Pages
+
+Una vez que los archivos están en GitHub, el siguiente paso es activarlos para que sean accesibles a través de una URL pública.
+
+Paso 1: Acceder a la Configuración de Pages
+
+Ir a Configuración: En la página principal de su repositorio en GitHub, haga clic en la pestaña Settings (Configuración), generalmente ubicada en la parte superior, a la derecha del nombre del repositorio.
+
+Navegar a Pages: En el menú lateral izquierdo de la página de Configuración, desplácese hacia abajo y haga clic en la opción Pages.
+
+Paso 2: Configurar la Fuente de Despliegue
+
+Seleccionar Fuente de Compilación: En la sección Build and deployment (Compilación e implementación), bajo Source (Fuente), seleccione la opción Deploy from a branch (Implementar desde una rama).
+
+Elegir la Rama:
+
+Debajo de Branch (Rama), haga clic en el menú desplegable (que probablemente dice None o master).
+
+Seleccione la rama main. Esta es la rama principal donde se encuentran sus archivos.
+
+Asegúrese de que el directorio seleccionado sea /(root) (raíz), lo que significa que GitHub Pages buscará el archivo index.html directamente en la carpeta principal de su repositorio.
+
+Guardar Configuración: Haga clic en el botón Save (Guardar).
+
+Paso 3: Esperar el Despliegue y Obtener la URL
+
+Proceso de Despliegue: GitHub Pages iniciará automáticamente un proceso de construcción y despliegue de su sitio. Esto puede tardar unos pocos minutos (generalmente entre 1 y 5 minutos).
+
+Verificar Estado: Puede recargar la página Settings > Pages después de un breve tiempo.
+
+Obtener la URL del Proyecto: Una vez que el despliegue se haya completado exitosamente, verá un mensaje en la parte superior de la sección GitHub Pages que dice "Your site is live at..." (Tu sitio está activo en...). Debajo de este mensaje, se mostrará la URL pública de su portafolio.
+
+La URL tendrá el formato: https://[su-nombre-de-usuario].github.io/[nombre-del-repositorio]/
+
+Ejemplo para este proyecto: https://juanperezdev.github.io/portafolio-juanperez/ (reemplace juanperezdev con su nombre de usuario de GitHub y portafolio-juanperez con el nombre real de su repositorio si es diferente).
+
+Paso 4: Visualizar y Compartir el Proyecto
+
+Abrir el Sitio: Haga clic en la URL proporcionada en la página de GitHub Pages. Su portafolio web se abrirá en una nueva pestaña del navegador, listo para ser explorado.
+
+Compartir: Copie esta URL y compártala con quien desee. Es el enlace público a su portafolio en línea.
+
+4. Enlaces del Proyecto
+
+Enlace del Repositorio de GitHub:
+https://github.com/tu-nombre-de-usuario/portafolio-juanperez
+(Por favor, reemplace tu-nombre-de-usuario con su nombre de usuario real de GitHub).
+
+URL del Proyecto Desplegado en GitHub Pages:
+https://tu-nombre-de-usuario.github.io/portafolio-juanperez/
+(Por favor, reemplace tu-nombre-de-usuario con su nombre de usuario real de GitHub).
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
